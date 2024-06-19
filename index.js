@@ -32,12 +32,11 @@ setData();
 
 let i = setInterval(function() { setData(); 
     console.log(testimonials[item]);
+    console.log(item);
     
-    if(item >= 2) {
+    item++
+    if(item === testimonials.length) {
         item = 0;
     }
-    else{
-        item++;  
-    }
-
+    
 }, 6000); 
