@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: cursive;
+}
+
+
+.testimonial-box {
+    width: 30%;
+    height: 25%;
+    position: relative;
+    padding: 0;
+    background-color:#6a5acd;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);  
+}
+
+.profile-picture {
+    width:100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    margin-top: -7%;
+    padding: 0;
+    border-radius:50%;
+}
+
+.testimonial-msg {
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.username {
+    text-align: left;
+    font-size: 14px;
+    margin-left: 10%;
+}
